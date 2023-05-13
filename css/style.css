@@ -15,7 +15,9 @@
   background: #ffffff;
   color: #434455;
 }
-
+.img {
+  display: block;
+}
 /**---------------HEADER--------------**/
 .nav-container {
   display: flex;
