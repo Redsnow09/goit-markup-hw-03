@@ -18,6 +18,10 @@
 .img {
   display: block;
 }
+.container {
+  width: 1158px;
+  padding: 0 15px;
+}
 /**---------------HEADER--------------**/
 .nav-container {
   display: flex;
