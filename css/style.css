@@ -20,7 +20,7 @@
 }
 .container {
   width: 1158px;
-  padding: 0 15px;
+  padding: 0, 15px, 0, 15px;
 }
 /**---------------HEADER--------------**/
 .nav-container {
