@@ -26,9 +26,11 @@
 /**---------------HEADER--------------**/
 .nav-container {
   display: flex;
+  align-items: center;
 }
 .nav {
   display: flex;
+  gap: 40p;
 }
 .header {
   background: #ffffff;
@@ -43,6 +45,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
   color: #4d5ae5;
 }
 
