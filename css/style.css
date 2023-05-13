@@ -31,6 +31,7 @@
 .nav {
   display: flex;
   gap: 40p;
+  align-items: center;
 }
 .header {
   background: #ffffff;
@@ -60,6 +61,11 @@
   color: #2e2f42;
 }
 
+.menu-list {
+  display: flex;
+  gap: 40px;
+}
+
 .menu-item:hover,
 .menu-item:focus {
   color: #404bbf;
@@ -72,12 +78,20 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
   color: #2e2f42;
 }
 
 .address {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
 .mail-link:hover,
 .mail-link:focus {
   color: #404bbf;
