@@ -1,5 +1,10 @@
 :root {
   --buttom-color: #404bbf;
+  --title-text: #f4f4fd;
+  --button: #4d5ae5;
+  --footer-color: #2e2f42;
+  --header-color: #ffffff;
+  --menu-color: #434455;
 }
 
 .link {
@@ -12,7 +17,7 @@
 
 .body {
   font-family: "Roboto", sans-serif;
-  background: #ffffff;
+  background: var(--header-color);
   color: #434455;
 }
 .img {
@@ -34,7 +39,7 @@
   align-items: center;
 }
 .header {
-  background: #ffffff;
+  background: var(--header-color);
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -47,7 +52,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  color: #4d5ae5;
+  color: var(--buttom-color);
 }
 
 .logo-studio {
@@ -58,7 +63,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--footer-color);
 }
 
 .menu-list {
@@ -68,18 +73,16 @@
 
 .menu-item:hover,
 .menu-item:focus {
-  color: #404bbf;
+  color: var(--buttom-color);
 }
 
 .menu-item {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
-  color: #2e2f42;
+  color: var(--footer-color);
 }
 
 .address {
@@ -94,38 +97,34 @@
 
 .mail-link:hover,
 .mail-link:focus {
-  color: #404bbf;
+  color: var(--buttom-color);
 }
 .mail-link {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-  color: #434455;
+  color: var(--menu-color);
 }
-
 /**---------------SECTION 1--------------**/
 .title-top {
-  background: #2e2f42;
+  background: var(--footer-color);
 }
 
 .title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--header-color);
 }
 
 .button-top:hover,
 .button-top:focus {
-  background-color: #404bbf;
+  background-color: var(--buttom-color);
 }
 
 .button-top {
@@ -134,83 +133,67 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--header-color);
+  background-color: var(--buton);
   cursor: pointer;
 }
 /**---------------SECTION 2--------------**/
-.paragraph {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+.title-top {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--footer-color);
 }
-.paragraph-text {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+.title-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--menu-color);
 }
 
 /**---------------SECTION 3--------------**/
 .work {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--footer-color);
 }
 /**---------------SECTION 4--------------**/
 .section-four {
-  background-color: #f4f4fd;
+  background-color: var(--title-text);
 }
 
 .team {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--footer-color);
 }
 
 .foto {
-  background-color: #ffffff;
+  background-color: var(--header-color);
 }
 
 .name {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--footer-color);
 }
-
 .speciality {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--menu-color);
 }
 
 /**---------------PORTFOLIO SECTION1--------------**/
@@ -220,20 +203,20 @@
 
 .btn:hover,
 .btn:focus {
-  background-color: #404bbf;
-  color: #ffffff;
+  background-color: var(--buttom-color);
+  color: var(--header-color);
 }
 
 .btn {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: #4d5ae5;
+  color: var(--buton);
   background-color: #f4f4fd;
 }
 
@@ -241,29 +224,32 @@
 }
 
 .portfolio-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--footer-color);
 }
 .portfolio-text {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--menu-color);
 }
 
 /**---------------FOOTER--------------**/
 .footer {
-  background: #2e2f42;
+  background: var(--footer-color);
+}
+.footer-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--title-text);
 }
 
 .logo-span {
-  color: #f4f4fd;
+  color: var(--title-text);
 }
