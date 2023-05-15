@@ -106,7 +106,7 @@
   color: var(--menu-color);
 }
 /**---------------SECTION 1--------------**/
-.title-top {
+.title-top-section {
   background: var(--footer-color);
 }
 
@@ -131,7 +131,7 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--header-color);
-  background-color: var(--buton);
+  background-color: var(--button);
   cursor: pointer;
 }
 /**---------------SECTION 2--------------**/
