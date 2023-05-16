@@ -18,6 +18,9 @@
 img {
   display: block;
 }
+.container {
+  display: flex;
+}
 
 .body {
   font-family: "Roboto", sans-serif;
