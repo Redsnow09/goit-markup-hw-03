@@ -58,6 +58,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  display: inline-block;
   color: var(--buttom-color);
 }
 
@@ -235,6 +236,7 @@ img {
 
 /**---------------FOOTER--------------**/
 .footer {
+  padding: 100px 0;
   background: var(--footer-color);
 }
 .footer-text {
