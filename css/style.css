@@ -15,6 +15,9 @@
 .list {
   list-style: none;
 }
+img {
+  display: block;
+}
 
 .body {
   font-family: "Roboto", sans-serif;
