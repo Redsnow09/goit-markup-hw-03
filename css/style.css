@@ -190,6 +190,11 @@ img {
 }
 
 /**---------------PORTFOLIO SECTION1--------------**/
+/**---------------section-main--------------**/
+.section-main-portfolio {
+  padding: 96px 0 120px;
+}
+
 .button-list {
   list-style: none;
 }
