@@ -105,7 +105,7 @@ img {
 }
 /**---------------SECTION 1--------------**/
 .title-top-section {
-  padding: 188px 0;
+  padding: 120px 0;
   background: var(--footer-color);
   height: 600px;
 }
@@ -141,6 +141,9 @@ img {
   background-color: var(--button);
 }
 /**---------------SECTION 2--------------**/
+.list-list {
+  display: flex;
+}
 .title-top {
   font-weight: 500;
   font-size: 20px;
@@ -152,6 +155,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 8px;
   color: var(--menu-color);
 }
 
@@ -164,6 +168,8 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--footer-color);
+}
+.list-work {
 }
 /**---------------SECTION 4--------------**/
 .section-four {
