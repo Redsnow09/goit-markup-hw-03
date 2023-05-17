@@ -34,6 +34,7 @@ img {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  outline: 2px solid red;
 }
 /**---------------HEADER--------------**/
 .nav-container {
@@ -87,8 +88,6 @@ img {
 
 .address {
   font-style: normal;
-  display: flex;
-  gap: 40px;
 }
 .address-list {
   display: flex;
@@ -106,6 +105,7 @@ img {
 /**---------------SECTION 1--------------**/
 .title-top-section {
   background: var(--footer-color);
+  height: 600px;
 }
 
 .title {
