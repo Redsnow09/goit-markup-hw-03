@@ -141,14 +141,21 @@ img {
   background-color: var(--button);
 }
 /**---------------SECTION 2--------------**/
+.section-two {
+  padding: 120px 0;
+}
+
 .list-list {
   display: flex;
+  gap: 24px;
 }
+
 .title-top {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   color: var(--footer-color);
 }
 .title-text {
@@ -159,9 +166,13 @@ img {
 }
 
 /**---------------SECTION 3--------------**/
+.section-three {
+  padding-bottom: 120px;
+}
 .work {
   font-weight: 700;
   font-size: 36px;
+  margin-bottom: 72px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -169,10 +180,13 @@ img {
   color: var(--footer-color);
 }
 .list-work {
+  display: flex;
+  gap: 24px;
 }
 /**---------------SECTION 4--------------**/
 .section-four {
   background-color: var(--title-text);
+  padding: 120px 0;
 }
 
 .team {
@@ -181,7 +195,12 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
   color: var(--footer-color);
+}
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .foto {
@@ -202,19 +221,23 @@ img {
   letter-spacing: 0.02em;
   color: var(--menu-color);
 }
+/**---------------portfolio-main--------------**/
 
-/**---------------PORTFOLIO SECTION1--------------**/
-/**---------------section-main--------------**/
 .section-main-portfolio {
   padding: 96px 0 120px;
 }
 
 .button-list {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .btn:hover,
 .btn:focus {
+  border: 1px solid transparent;
   background-color: var(--buttom-color);
   color: var(--header-color);
 }
@@ -226,11 +249,16 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 4px;
   color: var(--buton);
   background-color: var(--btn-color);
 }
 
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
 }
 
 .portfolio-title {
