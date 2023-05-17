@@ -115,6 +115,8 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
+  padding-top: 188px;
+  padding-bottom: 188px;
   color: var(--header-color);
 }
 
