@@ -114,6 +114,7 @@ img {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
   color: var(--header-color);
 }
 
@@ -131,6 +132,11 @@ img {
   color: var(--header-color);
   background-color: var(--button);
   cursor: pointer;
+  display: block;
+  border: none;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 /**---------------SECTION 2--------------**/
 .title-top {
