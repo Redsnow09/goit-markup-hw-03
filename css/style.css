@@ -21,6 +21,9 @@ img {
 .container {
   display: flex;
 }
+.section {
+  padding: 120px 0;
+}
 
 .body {
   font-family: "Roboto", sans-serif;
@@ -147,7 +150,6 @@ img {
 }
 /**---------------SECTION 2--------------**/
 .section-two {
-  padding: 120px 0;
 }
 
 .list-list {
@@ -172,7 +174,6 @@ img {
 
 /**---------------SECTION 3--------------**/
 .section-three {
-  padding-bottom: 120px;
 }
 .work {
   font-weight: 700;
@@ -191,7 +192,6 @@ img {
 /**---------------SECTION 4--------------**/
 .section-four {
   background-color: var(--title-text);
-  padding: 120px 0;
 }
 
 .team {
@@ -229,7 +229,6 @@ img {
 /**---------------portfolio-main--------------**/
 
 .section-main-portfolio {
-  padding: 96px 0 120px;
 }
 
 .button-list {
