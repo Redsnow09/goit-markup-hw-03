@@ -59,7 +59,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  margin-bottom: 16px;
+  margin-left: 156px;
   display: inline-block;
   color: var(--buttom-color);
 }
@@ -89,6 +89,7 @@ img {
 
 .address {
   font-style: normal;
+  margin-right: auto;
 }
 .address-list {
   display: flex;
@@ -105,18 +106,22 @@ img {
 }
 /**---------------SECTION 1--------------**/
 .title-top-section {
+  margin: 0 auto;
   padding: 188px 0;
   background: var(--footer-color);
   height: 600px;
+  width: 1440px;
 }
 
 .title {
+  height: 120px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 0 auto;
   color: var(--header-color);
 }
 
