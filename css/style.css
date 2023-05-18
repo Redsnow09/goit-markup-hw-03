@@ -193,6 +193,9 @@ img {
   display: flex;
   gap: 24px;
 }
+.element-foto {
+  width: calc((100% - 48px) / 3);
+}
 /**---------------SECTION 4--------------**/
 .section-four {
   background-color: var(--title-text);
