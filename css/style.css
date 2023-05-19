@@ -119,6 +119,8 @@ img {
   height: 600px;
   width: 1440px;
 }
+.div-container {
+}
 
 .title {
   height: 120px;
@@ -258,6 +260,7 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  padding-bottom: 427px;
 }
 
 .btn:hover,
