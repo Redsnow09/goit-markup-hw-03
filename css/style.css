@@ -33,6 +33,7 @@ img {
 }
 .img {
   display: block;
+  max-width: 100%;
 }
 .container {
   padding: 0 15px;
@@ -196,9 +197,9 @@ img {
 .list-work {
   display: flex;
   gap: 24px;
-  width: calc((100% - 48px) / 3);
 }
 .element-foto {
+  display: flex;
   width: calc((100% - 48px) / 3);
 }
 /**---------------SECTION 4--------------**/
@@ -218,7 +219,7 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
+
   border-radius: 0px 0px 4px 4px;
 }
 
