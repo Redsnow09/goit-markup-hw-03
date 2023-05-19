@@ -8,6 +8,9 @@
   --btn-color: #f4f4fd;
   --btn-edging: #e7e9fc;
 }
+.ul {
+  padding: -40px;
+}
 
 .link {
   text-decoration: none;
