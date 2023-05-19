@@ -217,6 +217,7 @@ img {
 
 .foto {
   background-color: var(--header-color);
+  width: calc((100% - 72px) / 4);
 }
 
 .name {
