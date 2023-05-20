@@ -290,7 +290,6 @@ img {
   background-color: var(--btn-color);
 }
 .portfolio-container {
-  flex-wrap: wrap;
 }
 
 .portfolio-list {
