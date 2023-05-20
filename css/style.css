@@ -9,6 +9,8 @@
   --btn-edging: #e7e9fc;
 }
 .ul {
+  margin: 0;
+  padding: 0;
 }
 
 .link {
@@ -157,7 +159,7 @@ img {
 .section-two {
 }
 .element {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .list-list {
   display: flex;
@@ -289,7 +291,6 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-top: 216px;
 }
 .portfolio-item {
   width: calc((100% - 48px) / 3);
