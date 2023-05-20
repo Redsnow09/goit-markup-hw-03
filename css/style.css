@@ -50,7 +50,6 @@ img {
 }
 .nav {
   display: flex;
-  gap: 40p;
   align-items: center;
 }
 .header {
@@ -69,7 +68,7 @@ img {
   margin-right: 76px;
   margin-left: 156px;
   display: inline-block;
-  margin-bottom: 16px;
+
   color: var(--buttom-color);
 }
 
