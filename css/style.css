@@ -121,6 +121,8 @@ img {
   width: 1440px;
 }
 .div-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .title {
