@@ -340,7 +340,7 @@ img {
   margin-right: 76px;
   margin-left: 156px;
   display: inline-block;
-  display: flex;
+
   margin-bottom: 16px;
   color: var(--buttom-color);
 }
