@@ -261,7 +261,9 @@ img {
 .section-main-portfolio {
   padding: 96px 0 120px;
 }
-
+.btn-div {
+  display: flex;
+}
 .button-list {
   list-style: none;
   display: flex;
