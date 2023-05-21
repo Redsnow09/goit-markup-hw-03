@@ -8,9 +8,10 @@
   --btn-color: #f4f4fd;
   --btn-edging: #e7e9fc;
 }
-.ul {
+ul {
   margin: 0;
-  padding: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
 .link {
