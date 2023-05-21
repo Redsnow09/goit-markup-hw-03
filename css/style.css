@@ -27,7 +27,7 @@ img {
 .section {
   padding: 120px 0;
   outline: 2px solid greenyellow;
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -71,7 +71,6 @@ img {
   text-transform: uppercase;
   margin-right: 76px;
   margin-left: 156px;
-  display: inline-block;
 
   color: var(--buttom-color);
 }
