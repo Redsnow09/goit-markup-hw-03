@@ -45,7 +45,7 @@ img {
   padding: 0 15px;
   margin: 0 auto;
   outline: 2px solid red;
-  width: 1158px;
+  max-width: 1158px;
 }
 /**---------------HEADER--------------**/
 .header-container {
