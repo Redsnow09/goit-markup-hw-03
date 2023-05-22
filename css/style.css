@@ -51,8 +51,6 @@ img {
 .section {
   padding: 120px 0;
   /* outline: 2px solid greenyellow;*/
-  width: 1440px;
-  margin: 0 auto;
 }
 
 .container {
@@ -122,7 +120,6 @@ img {
 .address-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .mail-link:hover,
@@ -140,8 +137,6 @@ img {
   margin: 0 auto;
   padding: 188px 0;
   background: var(--footer-color);
-  height: 600px;
-  width: 1440px;
 }
 
 .title {
@@ -237,7 +232,6 @@ img {
   gap: 24px;
 }
 .element-foto {
-  display: flex;
   width: calc((100% - 48px) / 3);
 }
 /**---------------SECTION 4--------------**/
@@ -273,6 +267,7 @@ img {
 
 .name {
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
@@ -357,8 +352,6 @@ img {
 /**---------------FOOTER--------------**/
 .footer {
   padding: 100px 0;
-  width: 1440px;
-  margin: 0 auto;
   background: var(--footer-color);
 }
 .footer-div {
